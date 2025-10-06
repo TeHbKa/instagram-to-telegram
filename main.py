@@ -15,7 +15,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 # Define time interval (in seconds)
-run_interval = 1800
+run_interval = 1200
 
 async def main():
     cl = instagrapi.Client()
